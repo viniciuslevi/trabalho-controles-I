@@ -1,15 +1,15 @@
 # Projeto de Compensadores PD e PID para Sistemas de Controle
 
-## 📋 Descrição do Projeto
+## Descrição do Projeto
 
 Este projeto apresenta o desenvolvimento e análise de compensadores **PD (Proporcional-Derivativo)** e **PID (Proporcional-Integral-Derivativo)** para sistemas de controle. O objetivo principal é demonstrar como esses controladores podem ser aplicados para otimizar o desempenho de sistemas dinâmicos, abordando desafios comuns como:
 
-- ⏱️ **Tempo de resposta**
-- 📈 **Sobressinal**
-- 🎯 **Erro em regime permanente**
-- 🔄 **Estabilidade do sistema**
+- **Tempo de resposta**
+- **Sobressinal**
+- **Erro em regime permanente**
+- **Estabilidade do sistema**
 
-## 🎯 Objetivos
+## Objetivos
 
 ### Objetivos Gerais
 - Projetar compensadores PD e PID usando metodologia clássica de controle
@@ -22,7 +22,7 @@ Este projeto apresenta o desenvolvimento e análise de compensadores **PD (Propo
 - **Questão 2**: Projeto de compensador PD para reduzir tempo de acomodação em 4x
 - **Questão 3**: Projeto de compensador PID para eliminar erro de estado estacionário
 
-## 🛠️ Metodologia
+## Metodologia
 
 ### Ferramentas Utilizadas
 - **Python** com bibliotecas:
@@ -71,7 +71,7 @@ Este projeto apresenta o desenvolvimento e análise de compensadores **PD (Propo
    - Margens de estabilidade
    - Sensibilidade a variações de parâmetros
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 trabalho_final/
@@ -87,7 +87,7 @@ trabalho_final/
 └── questao3.html           # Versão HTML do notebook 3
 ```
 
-## 📊 Resultados Principais
+## Resultados Principais
 
 ### Questão 1 - Análise Fundamental
 - **Sistema**: Análise de sistemas de controle básicos
@@ -138,7 +138,7 @@ pip install numpy matplotlib scipy pandas jupyter
 - **`.pdf`**: Versões estáticas para visualização
 - **`.html`**: Versões web para navegador
 
-## 📈 Gráficos e Visualizações
+## Gráficos e Visualizações
 
 Cada notebook gera:
 - **Resposta ao degrau** (sistema original vs compensado)
@@ -147,7 +147,7 @@ Cada notebook gera:
 - **Localização de pólos** no plano complexo
 - **Tabelas comparativas** de desempenho
 
-## 🎓 Conceitos Abordados
+## Conceitos Abordados
 
 ### Teoria de Controle Clássico
 - Lugar das raízes
@@ -168,7 +168,7 @@ Cada notebook gera:
 - Tempo de acomodação
 - Erro de estado estacionário
 
-## 💡 Considerações Práticas
+## Considerações Práticas
 
 ### Implementação Real
 - Filtros passa-baixa para compensadores PD
@@ -180,11 +180,11 @@ Cada notebook gera:
 - Saturação de atuadores
 - Sensibilidade a variações de parâmetros
 
-## 📚 Referências Bibliográficas
+## Referências Bibliográficas
 
 1. Nise, N.S. "Control Systems Engineering"
 
-## 👥 Contribuições
+## Contribuições
 
 Este projeto foi desenvolvido como trabalho acadêmico para demonstrar:
 - Aplicação prática de teoria de controle
@@ -192,7 +192,7 @@ Este projeto foi desenvolvido como trabalho acadêmico para demonstrar:
 - Análise quantitativa de sistemas dinâmicos
 - Validação através de simulação computacional
 
-## 📄 Licença
+## Licença
 
 Este projeto é disponibilizado para fins educacionais e acadêmicos.
 
